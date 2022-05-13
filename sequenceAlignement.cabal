@@ -7,13 +7,13 @@ author:         Aloïs 'baub' RAUTUREAU
 
 library
   exposed-modules:
-      Lib
+      Alignment, Rendering
   other-modules:
       Paths_sequenceAlignement
   hs-source-dirs:
       lib
   build-depends:
-      base >=4.7 && <5, array
+      base >=4.7 && <5, array, gloss
   default-language: Haskell2010
 
 executable sequenceAlignement-exe
@@ -27,4 +27,5 @@ executable sequenceAlignement-exe
       base >=4.7 && <5
     , sequenceAlignement
     , array
+    , gloss
   default-language: Haskell2010
